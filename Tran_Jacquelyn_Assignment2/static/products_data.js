@@ -37,3 +37,7 @@ products = [
             disc: "An exclusive flavor of Japan. A unique variation of the popular candy bar."
         },
     ]
+
+if(typeof module != 'undefined') {
+    module.exports = products;
+}
